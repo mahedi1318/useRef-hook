@@ -14,7 +14,7 @@ const Example1 = ({UserId}) => {
         <h1 className='mt-[50px] text-2xl font-bold'>{`This is a profile id : ${UserId}`}</h1>
 
         <div className='mt-8'>
-            <input onChange={handleTextChange} className='block border-2 border-indigo-600 ' type="text" value={text} />
+            <input onChange={handleTextChange} className='block border-2 border-indigo-600 pl-3' type="text" value={text} />
             <p className='mt-[20px]'>Show input value : {text}</p>
         </div>
       </div>
