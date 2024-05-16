@@ -1,6 +1,7 @@
 
 
 import './App.css'
+import ExampleButton1 from './components/ExampleButton1'
 import FastRaf from './components/FastRaf'
 import Time from './components/Time'
 
@@ -10,9 +11,10 @@ function App() {
 
   return (
     <>
-    <div className='flex justify-center items-center h-screen'>
+    <div className='pl-[400px] pt-[200px]'>
       {/* <FastRaf/> */}
-      <Time/>
+      {/* <Time/> */}
+      <ExampleButton1/>
     </div>
     </>
   )
